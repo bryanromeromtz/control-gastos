@@ -30,10 +30,12 @@ html {
 h1 {
   font-size: 4rem;
   font-family: "Marko One", serif;
+  letter-spacing: 0.2rem;
 }
 h2 {
   font-size: 3rem;
   font-family: "Marko One", serif;
+  letter-spacing: 0.2rem;
 }
 
 p {
