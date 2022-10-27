@@ -26,8 +26,9 @@ function App() {
   console.log(gastos);
 
   return (
-    <div className="App">
+    <div className={modal ? "fijar" : ""}>
       <Header
+        gastos={gastos}
         presupuesto={presupuesto}
         setPresupuesto={setPresupuesto}
         valido={valido}
