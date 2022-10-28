@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import { formatQuantity } from "../helpers";
 
 export const ControlPresupuesto = ({ presupuesto, gastos }) => {
