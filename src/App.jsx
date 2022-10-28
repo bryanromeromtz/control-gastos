@@ -15,7 +15,6 @@ function App() {
   const [modal, setModal] = useState(false);
   const [animarModal, setAnimarModal] = useState(false);
   const [gastoEditar, setGastoEditar] = useState({});
-  const [gastoEliminar, setGastoEliminar] = useState({});
 
   const handleNuevoGasto = () => {
     setModal(true);
