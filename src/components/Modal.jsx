@@ -30,6 +30,7 @@ export const Modal = ({
   }, [gastoEditar]);
 
   const handleCerrarModal = () => {
+    console.log("cerrar modal");
     setTimeout(() => {
       setModal(false);
     }, 500);

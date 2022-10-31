@@ -196,6 +196,13 @@ header h1 {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .formulario input[type="text"].nuevo-presupuesto,
+  .formulario input[type="number"].nuevo-presupuesto {
+    font-size: 2rem;
+  }
+}
+
 .contenedor-presupuesto svg {
   width: 25rem;
 }
@@ -284,6 +291,12 @@ main {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .gasto {
+    flex-direction: column;
+  }
+}
+
 .cantidad-gasto {
   font-size: 2.4rem;
   color: var(--negro);
@@ -357,8 +370,24 @@ main {
   width: 3rem;
   height: 3rem;
 }
+
+@media (max-width: 768px) {
+  .modal .cerrar-modal {
+    right: 1rem;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    z-index: 100;
+  }
+}
 .modal .cerrar-modal img {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .modal .cerrar-modal img {
+    width: 100%;
+  }
 }
 
 .modal .formulario {

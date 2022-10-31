@@ -26,7 +26,6 @@ const NuevoPresupuesto = ({ presupuesto, setPresupuesto, setValido }) => {
   };
   return (
     <div className="contenedor-presupuesto contenedor sombra">
-      <h2>Nuevo Presupuesto</h2>
       <form onSubmit={handlePresupuesto} className="formulario">
         <div className="campo">
           <label htmlFor="presupuesto">Presupuesto</label>
@@ -38,11 +37,7 @@ const NuevoPresupuesto = ({ presupuesto, setPresupuesto, setValido }) => {
             value={presupuesto}
             onChange={(e) => setPresupuesto(Number(e.target.value))}
           />
-          <input
-            type="submit"
-            className="button-primary u-full-width"
-            value="Añadir"
-          />
+          <input type="submit" className="button-primary " value="Añadir" />
           {mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
         </div>
       </form>
